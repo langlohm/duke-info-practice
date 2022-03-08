@@ -1,0 +1,72 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap');
+/* basic stylings */
+body{
+  margin: 0;
+  width: 100%;
+  font-family: 'Signika', sans-serif;
+  font-size: 16px;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url("./DukeMascot11.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px;
+}
+
+.duketitle img {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.duketitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  font-size: 40px;
+}
+
+.text {
+  font-size: 30px;
+  max-width: 80%;
+}
+
+.greenline {
+  height: 90%;
+  background: rgba(206, 255, 26, 63%);
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: solid 6px rgba(206, 255, 26, 63%);
+}
+
+.box {
+  min-height: 80px;
+  max-width: 75%;
+  background: rgba(0, 94, 184, 35%);
+}
+
+.info img{
+  height: 70px;
+  width: 70px;
+  padding: 15px;
+}
+
+.info {
+  display: flex;
+  font-size: 23px;
+  align-items: center;
+}
